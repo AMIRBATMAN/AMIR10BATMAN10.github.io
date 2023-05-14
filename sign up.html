@@ -1,0 +1,168 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>ثبت نام</title>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/javascript" href='js/JAVA.js'>
+<link rel='stylesheet' type='text/css' href='css/sign up.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/JAVA.js"></script>
+</head>
+<body background="img/hstrh.jpg" width="100%" height="100%">
+<div id='container'>
+<div id='header'><img src="img/header.png" width="100%" height="100%"></div>
+<div class="navbar">
+    <a href="INDEX.html">صفحه اصلی</a>
+    
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">رشته ها
+      <i class="fa fa-caret-down"></i>
+    </button>
+  <div class="dropdown-content" id="myDropdown">
+      <a href="Website developer.html">پایگاه های اینترنتی</a>
+      <a href="Graphics.html">گرافیک</a>
+      <a href="Photography.html">عکاسی</a>
+      <a href="Imaging.html">تصویربرداری</a>
+      <a href="Accounting.html">حسابداری</a>
+      <a href="Administrative Affairs.html">امور اداری</a>
+  </div>
+  </div> 
+    <a href='sign up.html'><i class="fa fa-fw fa-user"></i>ثبت نام</a>
+    <a href='sign in.html'><i class="fa fa-fw fa-user"></i>وارد شدن</a>
+    <a href='Contact us.html'>ارتباط با ما</a>
+    <div class="search-container">
+        <input class="topnav div input" style="background-color: aqua;height:45px ; color: black;" type="text" placeholder="جست و جو.." name="search" size="75" maxlength="300">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+  </div>
+<div id='contentbody'>
+  <p>&nbsp;</p>
+  <h3>فرم ثبت نام</h3>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">نام</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">نام خانوادگی</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">پایه</label>
+    <select id="country" name="country">
+      <option value="10">دهم</option>
+      <option value="11">یازدهم</option>
+      <option value="12">دوازدهم</option>
+    </select>
+
+    <label for="country">رشته</label>
+    <select id="country" name="country">
+      <option value="Website developer">پایگاه های اینترنتی</option>
+      <option value="Graphics">گرافیک</option>
+      <option value="Photography">عکاسی</option>
+      <option value="Imaging">تصویربرداری</option>
+      <option value="Accounting">حسابداری</option>
+      <option value="Administrative Affairs">امور اداری</option>
+    </select>
+
+    <label for="number">کد ملی</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your national code..">
+
+    <label for="country">سال تولد</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your birth year..">
+    
+    <label for="country">ماه تولد</label>
+    <select id="country" name="country">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+    
+    <label for="country">روز تولد</label>
+    <select id="country" name="country">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+    </select>
+    
+    <label for="subject">آدرس</label>
+    <textarea id="subject" name="آدرس" placeholder="Enter your address.." style="height:200px"></textarea>
+
+    <label for="number">کد پستی</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your zip code..">
+
+    <label for="number">شماره تلفن همراه</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your phone number..">
+
+    <label>نام کاربری</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your user name..">
+
+    <label>رمز عبور</label>
+    <input class="password" type="password" id="password" name="lastname" placeholder="Your Password..">
+
+    <label>تکرار رمز عبور</label>
+    <input class="password" type="password" id="password" name="lastname" placeholder="Replay Your Password..">
+
+    <input type="submit" value="ثبت">
+    <input type="submit" value="لغو">
+  </form>
+</div>
+</div>
+</div>
+</div>
+<div id='footer'><p>© Copyright AMIR10BATMAN10</p></div>
+</div>
+<div id="Advertising">
+  <a href="https://www.xvision.ir/televisions?utm_source=vigiato&utm_medium=BN&utm_campaign=BR">
+    <img id='ad' src="gif/xvision.gif" alt="xvision">
+  </a>
+  <a href="https://mci.ir/notrino-plans?utm_source=Vigato&utm_medium=Gif-Banner&utm_campaign=Packages1402&utm_id=internet&utm_content=1M">
+    <img id='ad' src="gif/mci.gif" alt="mci">
+  </a>
+  <a href="https://www.samsung.com/iran/smartphones/galaxy-z-fold4/?cid=iran_pd_display_vigiato_galaxy-z-fold4_launch_none_banner_fullsite-fb-mx-20220918_none">
+    <img id='ad' src="gif/samsung.gif" alt="samsung">
+  </a>
+  <a href="https://playpod.ir/?utm_source=vigiato&utm_medium=banner&utm_campaign=1402">
+    <img id='ad' src="gif/playpod.gif" alt="playpod">
+  </a>
+</div>
+</body>
+</html>
